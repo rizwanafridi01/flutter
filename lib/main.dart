@@ -14,15 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text(
-          'Hello Rizwan',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            fontFamily: 'IndieFlower'
-          ),
-        ),
+        child:  Image.asset('assets/s2.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
